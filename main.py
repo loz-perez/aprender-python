@@ -41,20 +41,20 @@ print(saludar(nombre))
 
 # Ejercicio 1: Creá una variable "color_favorito" con tu color favorito
 # y hacé un print que diga "Mi color favorito es <color>".
-# color_favorito = ...
-# print(...)
+color_favorito = "azul"
+print("Mi color favorito es", color_favorito)
 
 # Ejercicio 2: Pedile al usuario dos números con input() y sumalos.
 # Ojo: input() siempre devuelve texto, hay que convertirlo con int().
-# numero1 = int(input("Ingresá un número: "))
-# numero2 = int(input("Ingresá otro número: "))
-# print("La suma es:", numero1 + numero2)
+numero1 = int(input("Ingresá un número: "))
+numero2 = int(input("Ingresá otro número: "))
+print("La suma es:", numero1 + numero2)
 
 # Ejercicio 3: Escribí una función llamada "es_par" que reciba un número
 # y devuelva True si es par y False si es impar (pista: usá el operador %).
-# def es_par(numero):
-#     ...
+def es_par(numero):
+    return numero % 2 == 0
 
 # Ejercicio 4: Usando un for, imprimí la tabla del 5 (5x1, 5x2, ... 5x10).
-# for i in range(1, 11):
-#     ...
+for i in range(1, 11):
+    print(f"5 x {i} = {5 * i}")q
